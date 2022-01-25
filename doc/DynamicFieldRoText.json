@@ -1,0 +1,30 @@
+{
+    "name": "DynamicFieldRoText",
+    "version": "6.0.1",
+    "framework": [
+        "6.0.x",
+        "6.1.x",
+        "6.2.x"
+    ],
+    "vendor": {
+        "name":  "Perl-Services.de",
+        "url": "https://www.perl-services.de"
+    },
+    "license": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007",
+    "description" : {
+        "en": "Show a text value in a readonly text field",
+        "de": "Zeige einen Text in einem Readonly-Textfeld"
+    },
+    "exclude_files" : [
+        "doc/DynamicFieldRoText.json"
+    ],
+    "intro" : [
+        {
+            "type": "Install",
+            "version": 0,
+            "lang": "en",
+            "title": "Thank you!",
+            "text": "Thank you for choosing the DynamicFieldRoText module."
+        }
+    ]
+}
