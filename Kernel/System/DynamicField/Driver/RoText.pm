@@ -13,7 +13,7 @@ use warnings;
 
 use Kernel::System::VariableCheck qw(:all);
 
-use parent qw(Kernel::System::DynamicField::Driver::BaseText);
+use parent qw(Kernel::System::DynamicField::Driver::Text);
 
 =head1 NAME
 
@@ -30,6 +30,8 @@ Please look there for a detailed reference of the functions.
 
 =cut
 
+no warnings 'redefine';
+
 sub EditFieldRender {
     my ( $Self, %Param ) = @_;
 
@@ -41,4 +43,3 @@ sub EditFieldRender {
 }
 
 1;
-}
