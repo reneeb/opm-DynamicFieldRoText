@@ -13,6 +13,7 @@
     <Filelist>
         <File Permission="644" Location="Kernel/Config/Files/XML/DynamicFieldRoText.xml" />
         <File Permission="644" Location="Kernel/System/DynamicField/Driver/RoText.pm" />
+        <File Permission="644" Location="Kernel/System/DynamicField/Driver/RoTextArea.pm" />
     </Filelist>
     <IntroInstall Type="post" Lang="en" Title="Thank you!"><![CDATA[
             Thank you for choosing the DynamicFieldRoText module.

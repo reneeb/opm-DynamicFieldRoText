@@ -11,4 +11,15 @@
             </Hash>
         </Value>
     </Setting>
+    <Setting Name="DynamicFields::Driver###RoTextArea" Required="0" Valid="1">
+        <Description Translatable="1">DynamicField backend registration.</Description>
+        <Navigation>Core::DynamicFields::DriverRegistration</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="DisplayName" Translatable="1">ReadonlyTextarea</Item>
+                <Item Key="Module">Kernel::System::DynamicField::Driver::RoTextArea</Item>
+                <Item Key="ConfigDialog">AdminDynamicFieldText</Item>
+            </Hash>
+        </Value>
+    </Setting>
 </otobo_config>
